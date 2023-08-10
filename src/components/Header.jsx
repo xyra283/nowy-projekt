@@ -1,12 +1,15 @@
+import "../sass/components/Header.scss";
 function Header() {
   return (
-    <div className="nav-wrapper">
+    <div className="navbar">
       <img src="https://via.placeholder.com/100" alt="Giphy Logo" />
 
-      <nav id="">
+      <nav>
         <ul>
           <li>
-            <a href="#">Trending</a>
+            <a className="removelinkdefault" href="#">
+              Trending
+            </a>
           </li>
           <li>
             <a href="#">Categories</a>
